@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1BF-gF-vC0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date Picker Controller-->
+        <scene sceneID="NYg-WW-mfO">
+            <objects>
+                <viewController id="1BF-gF-vC0" customClass="PGCDatePickerController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SiW-Yx-cyz"/>
+                        <viewControllerLayoutGuide type="bottom" id="75T-hz-7Am"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="elW-VT-4ty">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gou-rg-HK5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QpL-xV-cme" appends="YES" id="IFu-Gk-Uhd"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NmY-V9-7NL">
+                                <rect key="frame" x="0.0" y="667" width="375" height="260"/>
+                                <subviews>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="916-vv-h1O">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="EQc-hd-rbJ"/>
+                                        </constraints>
+                                        <items>
+                                            <barButtonItem title="Cancelar" style="plain" id="wcV-z7-dx6">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="actionCancel:" destination="1BF-gF-vC0" id="WZp-FM-hKj"/>
+                                                </connections>
+                                            </barButtonItem>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="pTI-gI-Kr3"/>
+                                            <barButtonItem title="Hecho" style="plain" id="J7P-dd-c0k">
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="actionDone:" destination="1BF-gF-vC0" id="Rh0-WD-AdF"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                    </toolbar>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="jnU-2z-DWa">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="216"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="564353045.393134">
+                                            <!--2018-11-19 20:44:05 +0000-->
+                                        </date>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jnU-2z-DWa" secondAttribute="trailing" id="1Lx-W0-XPN"/>
+                                    <constraint firstAttribute="trailing" secondItem="916-vv-h1O" secondAttribute="trailing" id="4kA-mZ-n2E"/>
+                                    <constraint firstItem="916-vv-h1O" firstAttribute="top" secondItem="NmY-V9-7NL" secondAttribute="top" id="6k4-bI-edn"/>
+                                    <constraint firstAttribute="height" constant="260" id="QBh-C2-WdJ"/>
+                                    <constraint firstItem="916-vv-h1O" firstAttribute="leading" secondItem="NmY-V9-7NL" secondAttribute="leading" id="TUt-Hv-NNj"/>
+                                    <constraint firstItem="jnU-2z-DWa" firstAttribute="top" secondItem="916-vv-h1O" secondAttribute="bottom" id="iSF-te-yRn"/>
+                                    <constraint firstItem="jnU-2z-DWa" firstAttribute="leading" secondItem="NmY-V9-7NL" secondAttribute="leading" id="k35-b7-7k1"/>
+                                    <constraint firstAttribute="bottom" secondItem="jnU-2z-DWa" secondAttribute="bottom" id="tsf-s1-OEJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Gou-rg-HK5" secondAttribute="trailing" id="D6y-Fp-1XX"/>
+                            <constraint firstAttribute="trailing" secondItem="NmY-V9-7NL" secondAttribute="trailing" id="Hc6-2q-6ya"/>
+                            <constraint firstItem="NmY-V9-7NL" firstAttribute="leading" secondItem="elW-VT-4ty" secondAttribute="leading" id="IWw-UQ-M6a"/>
+                            <constraint firstItem="Gou-rg-HK5" firstAttribute="leading" secondItem="elW-VT-4ty" secondAttribute="leading" id="Wp1-6v-aL5"/>
+                            <constraint firstItem="Gou-rg-HK5" firstAttribute="top" secondItem="elW-VT-4ty" secondAttribute="top" id="bpq-8m-JdF"/>
+                            <constraint firstItem="NmY-V9-7NL" firstAttribute="top" secondItem="elW-VT-4ty" secondAttribute="bottom" id="h84-RZ-aNH"/>
+                            <constraint firstAttribute="bottom" secondItem="Gou-rg-HK5" secondAttribute="bottom" id="nD8-Ao-Q5i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="constraintPickerContainerTop" destination="h84-RZ-aNH" id="wqD-UK-3bN"/>
+                        <outlet property="datePickerView" destination="jnU-2z-DWa" id="SNY-JJ-Cl0"/>
+                        <outlet property="viewFadeBackground" destination="Gou-rg-HK5" id="XOZ-OB-g82"/>
+                        <outlet property="viewPickerContainer" destination="NmY-V9-7NL" id="DZ4-DK-dQm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k4a-E6-2AE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="QpL-xV-cme">
+                    <connections>
+                        <action selector="actionTapFadeBackground:" destination="1BF-gF-vC0" id="HHK-or-lZa"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-468" y="-308"/>
+        </scene>
+    </scenes>
+</document>
