@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC9ADB51224D793100FB4006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9ADB50224D793100FB4006 /* AppDelegate.swift */; };
-		DC9ADB53224D793100FB4006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9ADB52224D793100FB4006 /* ViewController.swift */; };
-		DC9ADB56224D793100FB4006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9ADB54224D793100FB4006 /* Main.storyboard */; };
-		DC9ADB58224D793300FB4006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9ADB57224D793300FB4006 /* Assets.xcassets */; };
-		DC9ADB5B224D793300FB4006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9ADB59224D793300FB4006 /* LaunchScreen.storyboard */; };
+		DCECD7BB226F78B500CC88D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD7BA226F78B500CC88D9 /* AppDelegate.swift */; };
+		DCECD7BD226F78B500CC88D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD7BC226F78B500CC88D9 /* ViewController.swift */; };
+		DCECD7C0226F78B500CC88D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7BE226F78B500CC88D9 /* Main.storyboard */; };
+		DCECD7C2226F78B700CC88D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7C1226F78B700CC88D9 /* Assets.xcassets */; };
+		DCECD7C5226F78B700CC88D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7C3226F78B700CC88D9 /* LaunchScreen.storyboard */; };
+		DCECD7CF226F78C600CC88D9 /* PGCDatePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7CD226F78C600CC88D9 /* PGCDatePickerController.storyboard */; };
+		DCECD7D0226F78C600CC88D9 /* PGCDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD7CE226F78C600CC88D9 /* PGCDatePickerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC9ADB4D224D793100FB4006 /* TestDatePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDatePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9ADB50224D793100FB4006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9ADB52224D793100FB4006 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC9ADB55224D793100FB4006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC9ADB57224D793300FB4006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC9ADB5A224D793300FB4006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC9ADB5C224D793300FB4006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCECD7B7226F78B500CC88D9 /* TestDatePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDatePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCECD7BA226F78B500CC88D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCECD7BC226F78B500CC88D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCECD7BF226F78B500CC88D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCECD7C1226F78B700CC88D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCECD7C4226F78B700CC88D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCECD7C6226F78B700CC88D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCECD7CD226F78C600CC88D9 /* PGCDatePickerController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PGCDatePickerController.storyboard; sourceTree = "<group>"; };
+		DCECD7CE226F78C600CC88D9 /* PGCDatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGCDatePickerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC9ADB4A224D793100FB4006 /* Frameworks */ = {
+		DCECD7B4226F78B500CC88D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +39,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC9ADB44224D793100FB4006 = {
+		DCECD7AE226F78B500CC88D9 = {
 			isa = PBXGroup;
 			children = (
-				DC9ADB4F224D793100FB4006 /* TestDatePickerController */,
-				DC9ADB4E224D793100FB4006 /* Products */,
+				DCECD7B9226F78B500CC88D9 /* TestDatePickerController */,
+				DCECD7B8226F78B500CC88D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC9ADB4E224D793100FB4006 /* Products */ = {
+		DCECD7B8226F78B500CC88D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC9ADB4D224D793100FB4006 /* TestDatePickerController.app */,
+				DCECD7B7226F78B500CC88D9 /* TestDatePickerController.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC9ADB4F224D793100FB4006 /* TestDatePickerController */ = {
+		DCECD7B9226F78B500CC88D9 /* TestDatePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				DC9ADB50224D793100FB4006 /* AppDelegate.swift */,
-				DC9ADB52224D793100FB4006 /* ViewController.swift */,
-				DC9ADB54224D793100FB4006 /* Main.storyboard */,
-				DC9ADB57224D793300FB4006 /* Assets.xcassets */,
-				DC9ADB59224D793300FB4006 /* LaunchScreen.storyboard */,
-				DC9ADB5C224D793300FB4006 /* Info.plist */,
+				DCECD7CC226F78C600CC88D9 /* Sources */,
+				DCECD7BA226F78B500CC88D9 /* AppDelegate.swift */,
+				DCECD7BC226F78B500CC88D9 /* ViewController.swift */,
+				DCECD7BE226F78B500CC88D9 /* Main.storyboard */,
+				DCECD7C1226F78B700CC88D9 /* Assets.xcassets */,
+				DCECD7C3226F78B700CC88D9 /* LaunchScreen.storyboard */,
+				DCECD7C6226F78B700CC88D9 /* Info.plist */,
 			);
 			path = TestDatePickerController;
+			sourceTree = "<group>";
+		};
+		DCECD7CC226F78C600CC88D9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCECD7CD226F78C600CC88D9 /* PGCDatePickerController.storyboard */,
+				DCECD7CE226F78C600CC88D9 /* PGCDatePickerController.swift */,
+			);
+			name = Sources;
+			path = ../../../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC9ADB4C224D793100FB4006 /* TestDatePickerController */ = {
+		DCECD7B6226F78B500CC88D9 /* TestDatePickerController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9ADB5F224D793300FB4006 /* Build configuration list for PBXNativeTarget "TestDatePickerController" */;
+			buildConfigurationList = DCECD7C9226F78B700CC88D9 /* Build configuration list for PBXNativeTarget "TestDatePickerController" */;
 			buildPhases = (
-				DC9ADB49224D793100FB4006 /* Sources */,
-				DC9ADB4A224D793100FB4006 /* Frameworks */,
-				DC9ADB4B224D793100FB4006 /* Resources */,
+				DCECD7B3226F78B500CC88D9 /* Sources */,
+				DCECD7B4226F78B500CC88D9 /* Frameworks */,
+				DCECD7B5226F78B500CC88D9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +96,25 @@
 			);
 			name = TestDatePickerController;
 			productName = TestDatePickerController;
-			productReference = DC9ADB4D224D793100FB4006 /* TestDatePickerController.app */;
+			productReference = DCECD7B7226F78B500CC88D9 /* TestDatePickerController.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC9ADB45224D793100FB4006 /* Project object */ = {
+		DCECD7AF226F78B500CC88D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = aguilarpgc;
 				TargetAttributes = {
-					DC9ADB4C224D793100FB4006 = {
-						CreatedOnToolsVersion = 10.1;
+					DCECD7B6226F78B500CC88D9 = {
+						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = DC9ADB48224D793100FB4006 /* Build configuration list for PBXProject "TestDatePickerController" */;
+			buildConfigurationList = DCECD7B2226F78B500CC88D9 /* Build configuration list for PBXProject "TestDatePickerController" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +122,56 @@
 				en,
 				Base,
 			);
-			mainGroup = DC9ADB44224D793100FB4006;
-			productRefGroup = DC9ADB4E224D793100FB4006 /* Products */;
+			mainGroup = DCECD7AE226F78B500CC88D9;
+			productRefGroup = DCECD7B8226F78B500CC88D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC9ADB4C224D793100FB4006 /* TestDatePickerController */,
+				DCECD7B6226F78B500CC88D9 /* TestDatePickerController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC9ADB4B224D793100FB4006 /* Resources */ = {
+		DCECD7B5226F78B500CC88D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9ADB5B224D793300FB4006 /* LaunchScreen.storyboard in Resources */,
-				DC9ADB58224D793300FB4006 /* Assets.xcassets in Resources */,
-				DC9ADB56224D793100FB4006 /* Main.storyboard in Resources */,
+				DCECD7C5226F78B700CC88D9 /* LaunchScreen.storyboard in Resources */,
+				DCECD7C2226F78B700CC88D9 /* Assets.xcassets in Resources */,
+				DCECD7C0226F78B500CC88D9 /* Main.storyboard in Resources */,
+				DCECD7CF226F78C600CC88D9 /* PGCDatePickerController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC9ADB49224D793100FB4006 /* Sources */ = {
+		DCECD7B3226F78B500CC88D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9ADB53224D793100FB4006 /* ViewController.swift in Sources */,
-				DC9ADB51224D793100FB4006 /* AppDelegate.swift in Sources */,
+				DCECD7D0226F78C600CC88D9 /* PGCDatePickerController.swift in Sources */,
+				DCECD7BD226F78B500CC88D9 /* ViewController.swift in Sources */,
+				DCECD7BB226F78B500CC88D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC9ADB54224D793100FB4006 /* Main.storyboard */ = {
+		DCECD7BE226F78B500CC88D9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9ADB55224D793100FB4006 /* Base */,
+				DCECD7BF226F78B500CC88D9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC9ADB59224D793300FB4006 /* LaunchScreen.storyboard */ = {
+		DCECD7C3226F78B700CC88D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9ADB5A224D793300FB4006 /* Base */,
+				DCECD7C4226F78B700CC88D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC9ADB5D224D793300FB4006 /* Debug */ = {
+		DCECD7C7226F78B700CC88D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -223,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		DC9ADB5E224D793300FB4006 /* Release */ = {
+		DCECD7C8226F78B700CC88D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -278,7 +295,7 @@
 			};
 			name = Release;
 		};
-		DC9ADB60224D793300FB4006 /* Debug */ = {
+		DCECD7CA226F78B700CC88D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,12 +308,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aguilarpgc.TestDatePickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DC9ADB61224D793300FB4006 /* Release */ = {
+		DCECD7CB226F78B700CC88D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,7 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aguilarpgc.TestDatePickerController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -317,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC9ADB48224D793100FB4006 /* Build configuration list for PBXProject "TestDatePickerController" */ = {
+		DCECD7B2226F78B500CC88D9 /* Build configuration list for PBXProject "TestDatePickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9ADB5D224D793300FB4006 /* Debug */,
-				DC9ADB5E224D793300FB4006 /* Release */,
+				DCECD7C7226F78B700CC88D9 /* Debug */,
+				DCECD7C8226F78B700CC88D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9ADB5F224D793300FB4006 /* Build configuration list for PBXNativeTarget "TestDatePickerController" */ = {
+		DCECD7C9226F78B700CC88D9 /* Build configuration list for PBXNativeTarget "TestDatePickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9ADB60224D793300FB4006 /* Debug */,
-				DC9ADB61224D793300FB4006 /* Release */,
+				DCECD7CA226F78B700CC88D9 /* Debug */,
+				DCECD7CB226F78B700CC88D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC9ADB45224D793100FB4006 /* Project object */;
+	rootObject = DCECD7AF226F78B500CC88D9 /* Project object */;
 }
