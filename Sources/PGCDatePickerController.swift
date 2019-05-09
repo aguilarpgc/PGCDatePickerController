@@ -80,7 +80,7 @@ class PGCDatePickerController: UIViewController {
     
     public static func with(currentDateSelected date: Date?, withOptions options: DatePickerOptions = DatePickerOptions(), selectionHandler: @escaping DateSelectionHandler) -> PGCDatePickerController {
         
-        let controller = UIStoryboard.instantiatePickerController
+        let controller = UIStoryboard.instantiatePGCDatePickerController
         
         controller.modalPresentationStyle = .overCurrentContext
         controller.currentDateSelected = date
@@ -156,7 +156,7 @@ class PGCDatePickerController: UIViewController {
 
 internal extension UIStoryboard {
     
-    static var instantiatePickerController: PGCDatePickerController {
+    static var instantiatePGCDatePickerController: PGCDatePickerController {
         
         guard let pickerController = UIStoryboard(name: "PGCDatePickerController", bundle: nil).instantiateInitialViewController() as? PGCDatePickerController else {
             
