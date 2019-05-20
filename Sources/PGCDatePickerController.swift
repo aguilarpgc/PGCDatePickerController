@@ -84,8 +84,8 @@ class PGCDatePickerController: UIViewController {
         
         controller.modalPresentationStyle = .overCurrentContext
         controller.currentDateSelected = date
-        controller.datePickerOptions = options
-        controller.selectionHandler = selectionHandler
+        controller.datePickerOptions   = options
+        controller.selectionHandler    = selectionHandler
         
         return controller
     }
