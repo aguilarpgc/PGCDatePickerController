@@ -26,12 +26,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.defaultDate = nil
     }
 
     // MARK: - IBActions -
     
-    @IBAction func actionClearDate(_ sender: Any) {
+    @IBAction func actionClean(_ sender: Any) {
         self.defaultDate = nil
     }
     
@@ -66,8 +67,4 @@ class ViewController: UIViewController {
             self.labelDate.text = "-"
         }
     }
-    
 }
-
-
-
