@@ -37,14 +37,14 @@
                                             <constraint firstAttribute="height" constant="44" id="EQc-hd-rbJ"/>
                                         </constraints>
                                         <items>
-                                            <barButtonItem title="Cancelar" style="plain" id="wcV-z7-dx6">
+                                            <barButtonItem title="Cancel" style="plain" id="wcV-z7-dx6">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <action selector="actionCancel:" destination="1BF-gF-vC0" id="WZp-FM-hKj"/>
                                                 </connections>
                                             </barButtonItem>
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="pTI-gI-Kr3"/>
-                                            <barButtonItem title="Hecho" style="plain" id="J7P-dd-c0k">
+                                            <barButtonItem title="Done" style="plain" id="J7P-dd-c0k">
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
                                                     <action selector="actionDone:" destination="1BF-gF-vC0" id="Rh0-WD-AdF"/>

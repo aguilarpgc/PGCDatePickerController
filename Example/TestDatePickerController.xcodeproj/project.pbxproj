@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC29B23D2292FF1D0077406C /* PGCDatePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC29B23B2292FF1D0077406C /* PGCDatePickerController.storyboard */; };
+		DC29B23E2292FF1D0077406C /* PGCDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29B23C2292FF1D0077406C /* PGCDatePickerController.swift */; };
 		DCECD7BB226F78B500CC88D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD7BA226F78B500CC88D9 /* AppDelegate.swift */; };
 		DCECD7BD226F78B500CC88D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD7BC226F78B500CC88D9 /* ViewController.swift */; };
 		DCECD7C0226F78B500CC88D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7BE226F78B500CC88D9 /* Main.storyboard */; };
 		DCECD7C2226F78B700CC88D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7C1226F78B700CC88D9 /* Assets.xcassets */; };
 		DCECD7C5226F78B700CC88D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7C3226F78B700CC88D9 /* LaunchScreen.storyboard */; };
-		DCECD7CF226F78C600CC88D9 /* PGCDatePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCECD7CD226F78C600CC88D9 /* PGCDatePickerController.storyboard */; };
-		DCECD7D0226F78C600CC88D9 /* PGCDatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCECD7CE226F78C600CC88D9 /* PGCDatePickerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC29B23B2292FF1D0077406C /* PGCDatePickerController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PGCDatePickerController.storyboard; sourceTree = "<group>"; };
+		DC29B23C2292FF1D0077406C /* PGCDatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGCDatePickerController.swift; sourceTree = "<group>"; };
 		DCECD7B7226F78B500CC88D9 /* TestDatePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDatePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCECD7BA226F78B500CC88D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCECD7BC226F78B500CC88D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		DCECD7C1226F78B700CC88D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCECD7C4226F78B700CC88D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCECD7C6226F78B700CC88D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCECD7CD226F78C600CC88D9 /* PGCDatePickerController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PGCDatePickerController.storyboard; sourceTree = "<group>"; };
-		DCECD7CE226F78C600CC88D9 /* PGCDatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGCDatePickerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC29B23A2292FF1D0077406C /* PGCDatePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				DC29B23B2292FF1D0077406C /* PGCDatePickerController.storyboard */,
+				DC29B23C2292FF1D0077406C /* PGCDatePickerController.swift */,
+			);
+			name = PGCDatePickerController;
+			path = ../../Sources/PGCDatePickerController;
+			sourceTree = "<group>";
+		};
 		DCECD7AE226F78B500CC88D9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +68,7 @@
 		DCECD7B9226F78B500CC88D9 /* TestDatePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				DCECD7CC226F78C600CC88D9 /* Sources */,
+				DC29B23A2292FF1D0077406C /* PGCDatePickerController */,
 				DCECD7BA226F78B500CC88D9 /* AppDelegate.swift */,
 				DCECD7BC226F78B500CC88D9 /* ViewController.swift */,
 				DCECD7BE226F78B500CC88D9 /* Main.storyboard */,
@@ -67,16 +77,6 @@
 				DCECD7C6226F78B700CC88D9 /* Info.plist */,
 			);
 			path = TestDatePickerController;
-			sourceTree = "<group>";
-		};
-		DCECD7CC226F78C600CC88D9 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				DCECD7CD226F78C600CC88D9 /* PGCDatePickerController.storyboard */,
-				DCECD7CE226F78C600CC88D9 /* PGCDatePickerController.swift */,
-			);
-			name = Sources;
-			path = ../../../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +140,7 @@
 				DCECD7C5226F78B700CC88D9 /* LaunchScreen.storyboard in Resources */,
 				DCECD7C2226F78B700CC88D9 /* Assets.xcassets in Resources */,
 				DCECD7C0226F78B500CC88D9 /* Main.storyboard in Resources */,
-				DCECD7CF226F78C600CC88D9 /* PGCDatePickerController.storyboard in Resources */,
+				DC29B23D2292FF1D0077406C /* PGCDatePickerController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCECD7D0226F78C600CC88D9 /* PGCDatePickerController.swift in Sources */,
+				DC29B23E2292FF1D0077406C /* PGCDatePickerController.swift in Sources */,
 				DCECD7BD226F78B500CC88D9 /* ViewController.swift in Sources */,
 				DCECD7BB226F78B500CC88D9 /* AppDelegate.swift in Sources */,
 			);
