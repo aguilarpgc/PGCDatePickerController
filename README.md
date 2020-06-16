@@ -16,6 +16,8 @@ Add PGCDatePickerController folder into your project.
 print("Hello")
 ```
 
+![Alt Text](https://github.com/aguilarpgc/PGCDatePickerController/blob/master/Images/example.gif?raw=true)
+
 ## License
 
 PGCDatePickerController is released under the MIT license.
