@@ -19,5 +19,4 @@ print("Hello")
 ![Alt Text](https://github.com/aguilarpgc/PGCDatePickerController/blob/master/Images/example.gif?raw=true)
 
 ## License
-
-PGCDatePickerController is released under the MIT license.
+This program is free software; you can redistribute it and/or modify it under the terms of the MIT License.
