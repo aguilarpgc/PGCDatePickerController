@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     // MARK: - Outlets -
     
-    @IBOutlet private weak var labelDate: UILabel!
+    @IBOutlet private weak var labelDate        : UILabel!
+    @IBOutlet private weak var buttonChooseDate : UIButton!
+    @IBOutlet private weak var cleanButton      : UIButton!
     
     // MARK: - Properties -
     
@@ -27,6 +29,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        buttonChooseDate.layer.cornerRadius = buttonChooseDate.bounds.size.height * 0.5
+        buttonChooseDate.layer.borderColor = UIColor.black.cgColor;
+        buttonChooseDate.layer.borderWidth = 2;
+        
+        cleanButton.layer.cornerRadius = cleanButton.bounds.size.height * 0.5
+        cleanButton.layer.borderColor = buttonChooseDate.layer.borderColor
+        cleanButton.layer.borderWidth = buttonChooseDate.layer.borderWidth;
+        
         self.defaultDate = nil
     }
 
@@ -39,7 +49,6 @@ class ViewController: UIViewController {
     @IBAction func actionSelectDate(_ sender: Any) {
         
         let datePickerOptions = DatePickerOptions()
-//        datePickerOptions.minimumDate = Date()
         
         let dateController = PGCDatePickerController.with(currentDateSelected: self.defaultDate, withOptions: datePickerOptions) { [weak self] (date) in
             
