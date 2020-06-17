@@ -21,12 +21,12 @@ In the completion you obtain the date selected by the user.
 ```swift
 let dateController = PGCDatePickerController.with(currentDateSelected: self.defaultDate) { [weak self] (date) in
             
-            guard let self = self else { return }
-            // 
-            // Use date selected in completion
-            // self.defaultDate = date
-            //
-        }
+	guard let self = self else { return }
+	// 
+	// Use date selected in completion
+	// self.defaultDate = date
+	//
+}
 ```
 
 Then, you need to present the view controller.
@@ -44,8 +44,9 @@ You can OPTIONALLY setup options for the DatePicker using these variables declar
 
 ```swift
 var datePickerOptions = DatePickerOptions()
-datePickerOptions.minimumDate = Date()
-datePickerOptions.mode = .dateAndTime
+
+datePickerOptions.minimumDate    = Date()
+datePickerOptions.mode           = .dateAndTime
 datePickerOptions.minuteInterval = 5
 ```
 
@@ -54,14 +55,14 @@ And send it as a parameter in the view controller creation
 ```swift
 let dateController = PGCDatePickerController.with(currentDateSelected: self.defaultDate, withOptions: datePickerOptions) { [weak self] (date) in
             
-            guard let self = self else { return }
-            // 
-            // Use date selected in completion
-            // self.defaultDate = date
-            //
-        }
+	guard let self = self else { return }
+	// 
+	// Use date selected in completion
+	// self.defaultDate = date
+	//
+}
         
-        self.present(dateController, animated: false, completion: nil)
+self.present(dateController, animated: false, completion: nil)
 ```
 
 ### Example
